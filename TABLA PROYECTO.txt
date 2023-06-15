@@ -1,0 +1,11 @@
+CREATE TABLE contactos (
+    id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nombre varchar(255),
+    apellidos varchar(255),
+    direccion varchar(255),
+    correo varchar(255),
+    edad int,
+    imagen varchar(255)
+);
+
+insert into contactos ( nombre, apellidos , direccion , correo , edad , imagen) values ( "Pablo", "Pablo de los Backyardigans", 2 , "Pablo" , 1500 , "https://imagen3.s3.us-east-2.amazonaws.com/pablo.jpg");
